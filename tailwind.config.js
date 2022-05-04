@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./index.html"],
+  content: ["./index.html", "./index.js"],
   theme: {
     extend: {
       colors: {
@@ -10,7 +10,6 @@ module.exports = {
         redtext: "hsl(14, 88%, 65%)",
         gradientpurple: "hsl(237, 12%, 33%)",
         gradientblue: "hsl(240, 73%, 65%)",
-
       },
       fontFamily: {
         kumbh: ['Kumbh Sans', 'sans-serif']
